@@ -20,7 +20,7 @@ export default function Home() {
 				<h1 className="text-2xl font-bold text-center m-4">Get multiple documents</h1>
 				<ShowAllDocuments />
 			</div>
-			<div className="bg-red-300 min-h-[150px] mb-4 p-4 border">
+			<div className="bg-green-300 min-h-[150px] mb-4 p-4 border">
 				<h1 className="text-2xl font-bold text-center m-4">Real-time list</h1>
 				<ShowAllDocumentsRT />
 			</div>
