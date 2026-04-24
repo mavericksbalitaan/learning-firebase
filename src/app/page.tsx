@@ -2,6 +2,7 @@ import AddDocument from "./components/AddDocument";
 import ShowAllDocuments from "./components/ShowAllDocuments";
 import ShowAllDocumentsRT from "./components/ShowAllDocumentsRT";
 import ShowDocument from "./components/ShowDocument";
+import UpdateDocument from "./components/UpdateDocument";
 
 export default function Home() {
 

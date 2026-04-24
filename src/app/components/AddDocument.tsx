@@ -41,11 +41,11 @@ export default function AddDocument() {
 		<div className="flex items-center flex-col">
 			<form className="max-w-[700px] bg-white rounded-xl p-4 flex flex-col items-center" onSubmit={handleSubmit}>
 				<h1 className="text-xl font-bold text-center">Form</h1>
-				<div className="flex justify-between m-2">
+				<div className="flex justify-between m-2 min-w-[275px]">
 					<label htmlFor="name">Name:</label>
 					<input type="text" name="name" label="name" placeholder="Input name" />
 				</div>
-				<div className="flex justify-between m-2">
+				<div className="flex justify-between m-2 min-w-[275px]">
 					<label htmlFor="age">Age:</label>
 					<input type="text" name="age" label="age" placeholder="Input age" />
 				</div>
